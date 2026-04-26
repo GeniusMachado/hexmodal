@@ -46,7 +46,7 @@ A Django REST Framework application for parsing IoT device payloads with token a
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd iot-payload-parser
+   cd hexmodal
    ```
 
 2. Install dependencies:
