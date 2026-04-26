@@ -1,0 +1,14 @@
+[project]
+name = "iot-payload-parser"
+version = "0.1.0"
+description = "Django application for parsing IoT device payloads"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "django>=4.2.30",
+    "djangorestframework>=3.16.1",
+    "djangorestframework-simplejwt>=5.5.1",
+]
+
+[project.scripts]
+start = "manage:main"
