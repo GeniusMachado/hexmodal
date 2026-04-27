@@ -3,7 +3,8 @@ from django.db import models
 class Device(models.Model):
     dev_eui = models.CharField(max_length=16, unique=True)  # devEUI is 16 hex chars
     name = models.CharField(max_length=100, blank=True)
-    latest_status = models.BooleanField(default=False)  # True for passing, False for failing
+   ## latest_status = models.BooleanField(default=False)  # True for passing, False for failing
+    'SELECT '  # True for passing, False for failing
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
